@@ -1,0 +1,11 @@
+name: stream-r
+version: 0.1.0
+homepage: https://github.com/morloclib/stream-r
+synopsis: R implementations for the stream module
+description: Native drivers for folds, statistics over pulls and external sorting.
+category: data
+license: MIT
+author: "Zebulun Arendsee"
+maintainer: "z@morloc.io"
+github: https://github.com/morloclib/stream-r
+bug-reports: https://github.com/morloclib/stream-r

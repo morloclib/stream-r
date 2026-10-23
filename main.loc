@@ -1,0 +1,17 @@
+--' R implementations of the functions stream specifies
+module stream-r (*)
+
+import stream
+import root-r
+
+source R from "R/stream.R"
+  ( "morloc_fold_source" as foldSource
+  , "morloc_fold_source" as foldSourceE
+  , "morloc_collect_source" as collectSource
+  , "morloc_reduce_native" as reduceNative
+  , "morloc_take_pull_native" as takePullNative
+  , "morloc_open_sorter" as openSorter
+  , "morloc_push_sorter" as pushSorter
+  , "morloc_next_sorted" as nextSortedNative
+  , "morloc_close_sorter" as closeSorter
+  )

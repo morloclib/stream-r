@@ -1,0 +1,10 @@
+--' The stream test suite against stream-r
+module test-stream-r (test, knownIssues)
+
+import stream.test (testBelow63, knownIssues)
+import stream-r
+import shell-py
+
+--' The stream test suite, with sorter words R can hold
+test :: <IO> Bool
+test = testBelow63
